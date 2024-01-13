@@ -7,7 +7,5 @@ defmodule ForumWeb.PageController do
     render(conn, :home, layout: false)
   end
 
-  def users(conn, _params) do
-    render(conn, :users)
-  end
+  
 end
