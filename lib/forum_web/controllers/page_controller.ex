@@ -1,9 +1,9 @@
 defmodule ForumWeb.PageController do
   use ForumWeb, :controller
 
-  def home(conn, _params) do
+  def xfn(conn, _params) do
     # The home page is often custom made,
     # so skip the default app layout.
-    render(conn, :home, layout: false)
+    render(conn, :yyy, layout: false)
   end
 end
