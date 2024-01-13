@@ -18,6 +18,7 @@ defmodule ForumWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :xfn
+    get "/users", PageController, :users
   end
 
   # Other scopes may use custom stacks.
